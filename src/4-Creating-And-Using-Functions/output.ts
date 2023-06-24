@@ -1,8 +1,8 @@
 export default async function updateOutput(id: string) {}
 
-runTheLearningSamples();
+const prefix = 'df';
 
-const prefix = '🐉 ';
+runTheLearningSamples();
 
 function runTheLearningSamples() {
   function displayProductInfo(id: number, name: string) {
