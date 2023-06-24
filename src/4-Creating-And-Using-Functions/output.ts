@@ -1,17 +1,16 @@
 const prefix = '🐉 ';
 
-export default async function updateOutput(id: string) {
-  //TODO
+function displayProductInfo(id: number, name: string) {
+  console.log(`${prefix} typed parameters`);
+  console.log(`product id=${id} and name=${name}`);
 }
 
-//run our samples
+function runTheLearningSamples() {
+  displayProductInfo(10, 'Pizza');
+}
+
 runTheLearningSamples();
 
-function runTheLearningSamples() {
-  //hoisted?
-  function displayProductInfo(id: number, name: string) {
-    console.log(`${prefix} typed parameters`);
-    console.log(`product id=${id} and name=${name}`);
-  }
-  displayProductInfo(10, 'Pizza');
+export default async function updateOutput(id: string) {
+  // TODO: Implement the updateOutput function
 }
