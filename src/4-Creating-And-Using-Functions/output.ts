@@ -1,6 +1,6 @@
-export default async function updateOutput(id: string) {
-  runTheLearningSamples();
-}
+export default async function updateOutput(id: string) {}
+
+runTheLearningSamples();
 
 const prefix = '🐉 ';
 
